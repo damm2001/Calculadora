@@ -1,28 +1,4 @@
 
-/*
-const funcionPredeterminada2 = () => {
-    const formulario = document.getElementById('formulario');
-    
-    formulario.addEventListener('submit', (evento) => {
-      evento.preventDefault();
-      
-      const valorPorHora = document.getElementById('valorPorHora').value;
-      const horasElementos = document.getElementsByClassName('horas');
-      
-      let totalHoras = 0;
-      for (let i = 0; i < horasElementos.length; i++) {
-        totalHoras += parseFloat(horasElementos[i].value);
-      }
-      
-      const valorTotal = totalHoras * parseFloat(valorPorHora);
-      document.getElementById('valorTotal').textContent = valorTotal;
-    });
-  }
-  
-  funcionPredeterminada2();
-*/
-//--------------------------------------------------------------------------------------------------------------
-//--------------------------------------------------------------------------------------------------------------
 
   const funcionPredeterminada = () => {
     
